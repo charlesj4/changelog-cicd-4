@@ -14,12 +14,12 @@
   "repository": {
     "url": "git@github.com:charlesj4/changelog-cicd-4.git"
   },
-
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
+  
   "scripts": {
     "release": "standard-version"
   }
